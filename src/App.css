@@ -36,3 +36,65 @@
     transform: rotate(360deg);
   }
 }
+
+.discover-dog.card {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.discover-dog > img {
+  height: 400px;
+  width: auto;
+}
+
+.discover-dog > div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+}
+
+#breeds {
+  border: 1px solid gainsboro;
+  cursor: pointer;
+}
+
+#breeds p {
+  padding: 0.4rem 1rem;
+  margin: 0;
+}
+
+#breeds p:hover,
+#breeds p:focus {
+  background-color: gainsboro;
+}
+
+#breeds p + p {
+  border-top: 1px solid gainsboro;
+}
+
+.btn-thumb {
+  border-radius: 50%;
+}
+
+.btn-thumb:first-child {
+  padding-bottom: 0.7rem;
+}
+
+.fas.center,
+.far.center {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* .jumbotron {
+  background-image: url("https://images.dog.ceo/breeds/hound-english/n02089973_2476.jpg");
+  background-size: cover;
+  background-position: center center;
+} */
